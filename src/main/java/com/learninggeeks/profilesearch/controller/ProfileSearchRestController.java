@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.learninggeeks.profilesearch.entity.Applicant;
 import com.learninggeeks.profilesearch.service.ProfileSearchService;
 
-@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
+@CrossOrigin(origins = "http://ec2-3-129-92-143.us-east-2.compute.amazonaws.com:3000", maxAge = 3600)
 @RestController
 @RequestMapping("/search")
 public class ProfileSearchRestController {	
